@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+/*heder_background_image*/
+header{
+    background-image: url(001.jpg),linear-gradient(#A9A9A9,#A9A9A9);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    min-height: 700px;
+    width: 100%;
+    padding-top: 10px;
+    background-blend-mode: multiply;
+}
+/* frist nmae logo */
+.left{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    font-size: 55px;
+    /*border: 1px solid red;*/
+    font-family: 'Patua One', cursive;
+    color: white;
+}
+
+/* model */ 
+/* aita pore use korbo 
+.mid{
+    width: 400px;
+    margin: 20px auto;
+   /*border: 1px solid red;*/
+   /*
+}*/
+.right{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 65px;
+    /*border: 1px solid red;*/
+}
+/* input search box*/
+input#search{
+    width: 200px;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px;
+    border-style: dotted;
+    outline: none;
+    padding-left: 24px;
+    font-size: 23px;
+    background-color: rgba(0, 0,0,0.1 );
+    color: white;
+}
+/* heading -  h1,h3 */
+.title_01{
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    left: 420px;
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+}
+.title_02{
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    left: 318px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+/* button_01*/
+.btn_01{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    top: 270px;
+    right: 200px;
+    height: 65px;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    font-size: 13px;
+    letter-spacing: 6px;
+    border-radius: 6px;
+    background-color: rgba(0, 0,0,0.1 );
+    font-family: 'Maven Pro', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+/* btn hover*/
+.btn_01:hover{
+    background-color: white;
+    color: black;
+    outline: none;
+}
+/*box_01_image*/
+.img_01{
+    display: inline-block;
+    position: relative;
+    width: 480px;
+    top: 135px;
+    left: 203px;
+    height: 540px;
+    margin-bottom: 200px;
+}
+.box_01{
+    display: inline-block;
+    position: relative;
+    width: 560px;
+    /*border: 1px solid red;*/
+    top: -250px;
+    left: 250px;
+}
+/*pra_01 headding */
+.pra_01{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    /*border: 1px solid red;*/
+    margin: 20px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 35px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+/* Box_02 pra*/ 
+.pra_02{
+    display:inline-block;
+    /*border: 1px solid red;*/
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: gray;
+    font-family: 'Abel', sans-serif;
+}
+/* Box_02 pra*/
+.pra_03{
+    display:inline-block;
+    /*border: 1px solid red;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    color: gray;
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+}
+/* part-03*/
+.box_02{
+    /*border: 1px solid red;*/
+    text-align: center;
+    height: 1000px;
+    padding-left: 85px;
+    padding-top: 80px;
+    background-color: #F5F5F5;
+    
+}
+
+/* paragrg - 50*/ 
+
+.title_03{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* paragrg - 10*/ 
+
+.pra_04{
+    font-size: 18px;
+    color: gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* content - 0110 */ 
+.box_00{
+    /*border: 1px solid red;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img_003{
+    width: 115px;
+}
+/* contint 01 */ 
+.content_01{
+    width: 370px;
+    height: 296px;
+    /*border: 1px solid red;*/
+    margin: 10px;
+    float: left;
+}
+/* pra_04*/
+.pra_05{
+    font-size: 23px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title_04{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* content  h1 - 02*/ 
+/*Start New Box Part 03 */
+.box_03{
+    width: 100%;
+    height: 1500px;
+    text-align: center;
+}
+/* Start New Box heading h1  */
+.title_05{
+    display: inline-block;
+    position: relative;
+    top:160px;
+    /*border: 1px solid red;*/
+    font-size: 70px;
+    font-family: 'Abril Fatface', cursive;
+    
+   
+}
+/* Start New Box heading p  */
+.title_06{
+    display: inline-block;
+    position: relative;
+    top:160px;
+    /*border: 1px solid red;*/
+    font-size: 26px;
+    color: gray;
+    margin-top: 10px;
+    
+}
+/* Start New Box image  */
+.img_02{
+    display: inline-block;
+    position: relative;
+    top: 260px;
+    box-shadow: 1px 2px 19px #888888;
+    
+}
+
+/*End New Box Part 03*/
+
+/*start New Box Part 04*/
+.box_04{
+    height: 1500px;
+    background-color: #00BFFF;
+}
+.box_0001{
+    /*
+    display: inline-block;
+    position: relative;
+    top: 127px;
+    left: 230px;
+    */
+    text-align: center;
+    width: 850px;
+    margin:20px auto;
+    
+    /*border: 1px solid red;*/
+    font-family: 'Abril Fatface', cursive;
+
+}
+/* heading h1-06*/ 
+.title_07{
+    font-size: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* pra_06*/
+.pra_06{
+    font-size: 24px;
+    color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+ content_02*/
+.content_02{
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 110px;
+    width: 368px;
+    height: 460px;
+    /*border: 1px solid red;*/
+    background-color: #F5F5F5;
+}
+.img_03{
+    width: 367px;
+    height: 185px;
+}
+/* time*/
+time{
+    padding-top: 10px;
+    padding-left: 10px;
+    color:gray;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* hedding box-03*/
+.title_08{
+    color: black;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    text-align: left;
+    font-size: 36px;
+    font-family: 'Abril Fatface', cursive;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pra_07{
+    font-size: 18px;
+    color: gray;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/*content_02*/
+.content_02{
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 110px;
+    width: 368px;
+    height: 460px;
+    /*border: 1px solid red;*/
+    background-color: #F5F5F5;
+    box-shadow:1px 2px 19px #888888;
+    margin: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.img_03{
+    width: 367px;
+    height: 185px;
+    
+}
+/* time*/
+time{
+    padding-top: 10px;
+    padding-left: 10px;
+    color:gray;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* hedding box-03*/
+.title_09{
+    color: black;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    text-align: left;
+    font-size: 36px;
+    font-family: 'Abril Fatface', cursive;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.title_09:hover{
+    color: gray;
+}
+.pra_08{
+    font-size: 18px;
+    color: gray;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img_04{
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    left: 120px;
+    box-shadow: 5px 5px 19px #888888;
+}
+
+.box_05{
+    height: 700px;
+    background-color: black;
+}
